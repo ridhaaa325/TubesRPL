@@ -39,7 +39,7 @@
                                         <!-- nama lengkap -->
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <div class="form-outline flex-fill mb-0">
-                                                <label class="form-label" for="nama">Your Name</label>
+                                                <label class="form-label" for="nama">Nama Lengkap</label>
                                                 <input name="nama" type="text" id="nama" class="form-control"
                                                     required />
                                             </div>

@@ -1,3 +1,13 @@
+<?php
+
+// session_start(); // mulai session
+
+if(isset($_SESSION['username']))
+{   
+    header("location: index.php"); 
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +34,7 @@
 </head>
 
 <body>
-    <!-- login -->
+
     <section class="login p-5" id="login">
         <div class="container md-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
@@ -63,7 +73,7 @@
                                                 class="btn btn-primary btn-md">Login</button>
                                             <!-- </div> -->
                                             <!-- <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-6"> -->
-                                            <a class="btn btn-success btn-md" href="register.php">Daftar</a>
+                                            <a class="btn btn-dark btn-md" href="register.php">Daftar</a>
                                             <!-- </div> -->
                                         </div>
                                         <!-- end of button -->
